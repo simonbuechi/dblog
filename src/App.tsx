@@ -9,7 +9,6 @@ import ThemeProvider from "@material-ui/styles/ThemeProvider";
 import useAsyncEffect from "use-async-effect";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Header from "components/Header";
-import Footer from "components/Footer";
 import Home from "pages/Home";
 import Write from "pages/Write";
 import Read from "pages/Read";
@@ -69,7 +68,6 @@ const App: React.FunctionComponent = () => {
                 <Home handleRoute={handleRoute} />
               )}
             </div>
-            <Footer />
           </>
         )}
       </ThemeProvider>

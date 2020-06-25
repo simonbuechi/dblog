@@ -37,7 +37,7 @@ export default makeStyles((theme: Theme) =>
       },
     },
     label: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontWeight: "bold",
       fontSize: 16,
       margin: theme.spacing(3, 0, 1),
@@ -47,7 +47,7 @@ export default makeStyles((theme: Theme) =>
       width: "100%",
     },
     publishButton: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       height: 56,
       fontWeight: "bold",
       fontSize: 16,
@@ -57,7 +57,7 @@ export default makeStyles((theme: Theme) =>
       },
     },
     saveButton: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontWeight: 600,
       height: 56,
       fontSize: 16,
@@ -70,7 +70,7 @@ export default makeStyles((theme: Theme) =>
     },
     destroyButton: {
       height: 56,
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontWeight: 600,
       color: theme.palette.error.main,
       paddingRight: theme.spacing(2),

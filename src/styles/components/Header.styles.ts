@@ -13,9 +13,9 @@ export default makeStyles((theme: Theme) =>
       minHeight: "72px !important",
     },
     title: {
-      fontFamily: "Merriweather !important",
-      fontSize: "36px !important",
-      fontWeight: "900 !important" as any,
+      fontFamily: "Basetica !important",
+      fontSize: "24px !important",
+      fontWeight: "normal",
       lineHeight: "1.2 !important",
       paddingBottom: 2,
       marginRight: `${theme.spacing(2)}px !important`,
@@ -64,14 +64,14 @@ export default makeStyles((theme: Theme) =>
     },
     bookmarksButton: {
       color: `${theme.palette.primary.contrastText} !important`,
-      fontFamily: "OpenSans !important",
+      fontFamily: "Roboto Slab !important",
       fontWeight: "bold !important" as any,
       fontSize: "16px !important",
       marginLeft: "8px !important",
     },
     menuItem: {
       fontWeight: 600,
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
     },
     menuIcon: {
       marginTop: theme.spacing(0.5),

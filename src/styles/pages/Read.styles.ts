@@ -24,7 +24,7 @@ export default makeStyles((theme: Theme) =>
     },
     dateAuthorRow: {},
     caption: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 14,
       wordBreak: "break-word",
     },

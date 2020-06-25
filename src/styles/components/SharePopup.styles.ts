@@ -14,7 +14,7 @@ export default makeStyles((theme: Theme) =>
       },
     },
     shareText: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontWeight: "bold",
       fontSize: 24,
       maxWidth: 122,

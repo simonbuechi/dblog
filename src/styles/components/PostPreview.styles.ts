@@ -26,7 +26,7 @@ export default makeStyles((theme: Theme) =>
       marginBottom: theme.spacing(3),
     },
     caption: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 14,
       wordBreak: "break-word",
     },
@@ -53,7 +53,7 @@ export default makeStyles((theme: Theme) =>
       },
     },
     destroyButton: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontWeight: 600,
       color: theme.palette.error.main,
       borderRadius: 25,

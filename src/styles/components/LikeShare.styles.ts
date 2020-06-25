@@ -16,7 +16,7 @@ export default makeStyles((theme: Theme) =>
     leftButtons: {},
     likeButton: {
       borderRadius: 20,
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 16,
       height: 40,
       [theme.breakpoints.down("xs")]: {
@@ -34,7 +34,7 @@ export default makeStyles((theme: Theme) =>
       },
     },
     shareText: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 16,
       fontWeight: "bold",
       marginRight: theme.spacing(1),
@@ -46,7 +46,7 @@ export default makeStyles((theme: Theme) =>
     iconText: {
       textTransform: "none",
       marginLeft: theme.spacing(1),
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 16,
       color: theme.palette.secondary.main,
     },

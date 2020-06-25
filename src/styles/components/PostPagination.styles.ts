@@ -17,7 +17,7 @@ export default makeStyles((theme: Theme) =>
     },
     arrowButton: {
       borderRadius: 36,
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontWeight: 600,
     },
   })

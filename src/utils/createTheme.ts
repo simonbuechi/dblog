@@ -6,7 +6,7 @@ export const getThemeType = (color: string) =>
 const createTheme = (primary: string, secondary: string, background: string) =>
   createMuiTheme({
     typography: {
-      fontFamily: "Merriweather",
+      fontFamily: "Roboto Slab",
     },
     palette: {
       type: "light",
@@ -24,9 +24,15 @@ const createTheme = (primary: string, secondary: string, background: string) =>
       },
     },
     overrides: {
+      MuiTypography: {
+        h2: {
+          fontFamily: "Basetica",
+          fontSize: 33
+        }
+      },
       MuiButton: {
         contained: {
-          fontFamily: "OpenSans",
+          fontFamily: "Roboto Slab",
           fontSize: 16,
           fontWeight: "bold",
           borderRadius: 20,

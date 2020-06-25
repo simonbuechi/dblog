@@ -8,7 +8,7 @@ export default makeStyles((theme: Theme) =>
       flexDirection: "column",
     },
     title: {
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 40,
       marginBottom: theme.spacing(4),
       color:

@@ -27,7 +27,7 @@ export default makeStyles((theme: Theme) =>
     creditContainer: {},
     creditText: {
       color: theme.palette.primary.contrastText,
-      fontFamily: "OpenSans",
+      fontFamily: "Roboto Slab",
       fontSize: 14,
     },
     hover: {

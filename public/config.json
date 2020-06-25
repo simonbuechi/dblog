@@ -1,31 +1,30 @@
 {
-  "domain": "reseller-test-don0.crypto",
-  "title": "Don's Blog",
-  "logo": "logo.png",
-  "threadAddress": "/orbitdb/zdpuAsWFwTvGFTQsKpjF48jGjsBeDLrtdpGvaMxhFYvaZHNvv/3box.thread.draft-blog-reseller-test-don0#crypto.blog-posts",
-  "adminWallet": "0x47b0FdE4622577cb10ED2c79108D79CBb582eE5C",
-  "spaceName": "draft-blog-reseller-test-don0#crypto",
+  "domain": "simonbuechi",
+  "title": "Simon Buechi Blog",
+  "threadAddress": "/orbitdb/zdpuAoRqV81GCvCaswxTigDrsGtCuuHiBb1TV7wocTi8phGZL/3box.thread.blog-simonbuechi.blog-posts",
+  "adminWallet": "0x254b358a6047a03243971b4814b1aafdf312ec56",
+  "spaceName": "blog-simonbuechi",
   "theme": {
-    "primary": "#022120",
-    "secondary": "#107F62",
-    "background": "#FBF7ED"
+    "primary": "#607d8b",
+    "secondary": "#455a64",
+    "background": "#eceff1"
   },
   "socials": {
     "hasWebsite": true,
     "hasFacebook": true,
-    "hasInstagram": true,
+    "hasInstagram": false,
     "hasLinkedIn": true,
     "hasMedium": true,
-    "hasTelegram": true,
+    "hasTelegram": false,
     "hasTwitter": true,
-    "hasYouTube": true,
-    "website": "donstolz.tech",
-    "facebook": "facebook.com",
+    "hasYouTube": false,
+    "website": "https://buechi.name",
+    "facebook": "https://www.facebook.com/simon.buechi",
     "instagram": "instagram.com",
-    "linkedIn": "linkedIn.com",
-    "medium": "medium.com",
+    "linkedIn": "https://www.linkedin.com/in/simonbuechi",
+    "medium": "https://medium.com/@simonbuechi",
     "telegram": "telegram.com",
-    "twitter": "twitter.com",
+    "twitter": "https://twitter.com/pacta_app",
     "youTube": "youtube.com"
   }
 }
