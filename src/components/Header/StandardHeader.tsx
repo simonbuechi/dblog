@@ -83,7 +83,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
               variant="text"
               startIcon={
                 <CustomIcon
-                  color={palette.primary.contrastText}
+                  color={palette.primary.dark}
                   type="bookmarks"
                 />
               }
@@ -102,7 +102,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
               className={classes.socialIcon}
               onClick={handleWebsite}
             >
-              <CustomIcon type="website" color={palette.primary.contrastText} />
+              <CustomIcon type="website" color={palette.primary.dark} />
             </IconButton>
           )}
           {socials.hasFacebook && (
@@ -113,7 +113,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
             >
               <CustomIcon
                 type="facebook"
-                color={palette.primary.contrastText}
+                color={palette.primary.dark}
               />
             </IconButton>
           )}
@@ -125,7 +125,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
             >
               <CustomIcon
                 type="instagram"
-                color={palette.primary.contrastText}
+                color={palette.primary.dark}
               />
             </IconButton>
           )}
@@ -135,7 +135,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
               className={classes.socialIcon}
               onClick={handleTwitter}
             >
-              <CustomIcon type="twitter" color={palette.primary.contrastText} />
+              <CustomIcon type="twitter" color={palette.primary.dark} />
             </IconButton>
           )}
           {socials.hasTelegram && (
@@ -146,7 +146,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
             >
               <CustomIcon
                 type="telegram"
-                color={palette.primary.contrastText}
+                color={palette.primary.dark}
               />
             </IconButton>
           )}
@@ -158,7 +158,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
             >
               <CustomIcon
                 type="linkedIn"
-                color={palette.primary.contrastText}
+                color={palette.primary.dark}
               />
             </IconButton>
           )}
@@ -168,7 +168,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
               className={classes.socialIcon}
               onClick={handleMedium}
             >
-              <CustomIcon type="medium" color={palette.primary.contrastText} />
+              <CustomIcon type="medium" color={palette.primary.dark} />
             </IconButton>
           )}
           {socials.hasYouTube && (
@@ -177,7 +177,7 @@ const StandardHeader: React.FunctionComponent<Props> = ({
               className={classes.socialIcon}
               onClick={handleYouTube}
             >
-              <CustomIcon type="youTube" color={palette.primary.contrastText} />
+              <CustomIcon type="youTube" color={palette.primary.dark} />
             </IconButton>
           )}
         </div>

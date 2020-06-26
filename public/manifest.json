@@ -1,6 +1,6 @@
 {
-  "short_name": "reseller-test-don0.crypto",
-  "name": "Don's Amazing Blog",
+  "short_name": "Simon Buechi",
+  "name": "Simon Buechi Blog",
   "icons": [
     {
       "src": "favicon.ico",
@@ -12,10 +12,10 @@
   "display": "standalone",
   "theme": {
     "colors": {
-      "primary": "#fff",
-      "secondary": "#ffeb3b",
-      "background": "#000",
-      "icon_color": "#000"
+      "primary": "#455a64",
+      "secondary": "#eceff1",
+      "background": "#455a64",
+      "icon_color": "#eceff1"
     }
   }
 }

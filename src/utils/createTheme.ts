@@ -31,17 +31,14 @@ const createTheme = (primary: string, secondary: string, background: string) =>
         }
       },
       MuiButton: {
-        contained: {
-          fontFamily: "Roboto Slab",
-          fontSize: 16,
-          fontWeight: "bold",
-          borderRadius: 20,
-          height: 40,
-        },
-      },
-      MuiOutlinedInput: {
         root: {
-          borderRadius: 0,
+          fontFamily: "Basetica",
+          fontWeight: "normal",
+          textTransform: "none",
+        },
+        contained: {
+          fontSize: 16,
+          height: 40,
         },
       },
       MuiListItemIcon: {

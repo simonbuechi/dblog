@@ -46,7 +46,6 @@ export default makeStyles((theme: Theme) =>
       display: "flex",
       alignItems: "center",
       width: 158,
-      borderRadius: 25,
       fontSize: 16,
       [theme.breakpoints.down("xs")]: {
         width: "100%",

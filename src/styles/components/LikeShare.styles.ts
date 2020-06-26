@@ -36,7 +36,6 @@ export default makeStyles((theme: Theme) =>
     shareText: {
       fontFamily: "Roboto Slab",
       fontSize: 16,
-      fontWeight: "bold",
       marginRight: theme.spacing(1),
       [theme.breakpoints.down("xs")]: {
         marginTop: theme.spacing(2),

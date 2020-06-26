@@ -56,7 +56,7 @@ const Header: React.FunctionComponent<RoutingProps> = ({ handleRoute }) => {
 
   return (
     <>
-      <AppBar className={classes.root} position="fixed">
+      <AppBar className={classes.root} position="static" color="inherit">
         <Toolbar className={classes.toolBar}>
           <Hidden smUp>
             <MobileHeader
