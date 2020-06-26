@@ -5,8 +5,8 @@ import { showdownOptions } from "config/showdown";
 import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { getPost, deletePost } from "services/blogActions";
-// import Comments from "3box-comments-react";
-// import { login } from "services/userActions";
+import Comments from "3box-comments-react";
+import { login } from "services/userActions";
 import appContext from "services/appContext";
 import useStyles from "styles/pages/Read.styles";
 import useAsyncEffect from "use-async-effect";
@@ -29,21 +29,21 @@ const ReadPost: React.FunctionComponent<Props & RoutingProps> = ({
   const [loading, setLoading] = React.useState<boolean>(true);
   const [post, setPost] = React.useState<BlogPost>({} as BlogPost);
   const [postId, setPostId] = React.useState<string>("");
-  //   const [commentsThread, setCommentsThread] = React.useState<string>();
+  const [commentsThread, setCommentsThread] = React.useState<string>();
   const { state, dispatch } = React.useContext(appContext);
 
   const {
-    // box,
+     box,
     user: {
-      // walletAddress,
+       walletAddress,
       isAdmin,
     },
-    // spaceName,
+     spaceName,
   } = state;
 
   useAsyncEffect(async () => {
     if (id && id !== postId) {
-      //   setCommentsThread(`comments-${id}`);
+      setCommentsThread(`comments-${id}`);
       setPostId(id);
       try {
         const newPost = await getPost({ state, dispatch })(id as string);
@@ -71,9 +71,9 @@ const ReadPost: React.FunctionComponent<Props & RoutingProps> = ({
     }
   };
 
-  //   const handleLogin = async () => {
-  //     await login({ state, dispatch })();
-  //   };
+     const handleLogin = async () => {
+       await login({ state, dispatch })();
+     };
 
   return (
     <>
@@ -111,20 +111,20 @@ const ReadPost: React.FunctionComponent<Props & RoutingProps> = ({
             </div>
             <Divider className={classes.divider} />
             <LikeShare postId={postId} />
-            {/* <div className={classes.commentContainer}>
+             <div className={classes.commentContainer}>
               <div className={classes.comments}>
                 {commentsThread && box && (
                   <Comments
                     spaceName={spaceName}
                     threadName={commentsThread}
-                    adminEthAddr={adminWallet} // moderators[0]
+                    adminEthAddr={"0x254b358a6047a03243971b4814b1aafdf312ec56"} // moderators[0]
                     box={box}
                     currentUserAddr={walletAddress}
                     loginFunction={handleLogin}
                   />
                 )}
               </div>
-            </div> */}
+            </div> 
           </>
         )}
       </Paper>
