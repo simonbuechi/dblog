@@ -17,7 +17,6 @@ export default makeStyles((theme: Theme) =>
     },
     title: {
       fontSize: 32,
-      fontWeight: "bold",
       wordWrap: "break-word",
     },
     dateAuthorRow: {

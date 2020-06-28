@@ -1,6 +1,7 @@
 {
   "domain": "simonbuechi",
   "title": "Simon Buechi Blog",
+  "logo": "logo.png",
   "threadAddress": "/orbitdb/zdpuAoRqV81GCvCaswxTigDrsGtCuuHiBb1TV7wocTi8phGZL/3box.thread.blog-simonbuechi.blog-posts",
   "adminWallet": "0x254b358a6047a03243971b4814b1aafdf312ec56",
   "spaceName": "blog-simonbuechi",

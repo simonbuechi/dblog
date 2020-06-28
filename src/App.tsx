@@ -17,6 +17,7 @@ import Drafts from "pages/Drafts";
 import { Theme } from "@material-ui/core/styles/createMuiTheme";
 import { defaultTheme } from "utils/createTheme";
 import useQueryString from "utils/useQueryStringParams";
+import Sidebar from "components/Sidebar";
 
 const App: React.FunctionComponent = () => {
   const classes = useStyles();
@@ -54,6 +55,7 @@ const App: React.FunctionComponent = () => {
           </div>
         ) : (
           <>
+            <Sidebar handleRoute={handleRoute} />
             <Header handleRoute={handleRoute} />
             <div className={classes.root}>
               {route === "read" ? (

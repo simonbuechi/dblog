@@ -25,9 +25,24 @@ const createTheme = (primary: string, secondary: string, background: string) =>
     },
     overrides: {
       MuiTypography: {
+        h1: {
+          fontFamily: "Basetica",
+        },
         h2: {
           fontFamily: "Basetica",
           fontSize: 33
+        },
+        h3: {
+          fontFamily: "Basetica",
+        },
+        h4: {
+          fontFamily: "Basetica",
+        },
+        h5: {
+          fontFamily: "Basetica",
+        },
+        h6: {
+          fontFamily: "Basetica",
         }
       },
       MuiButton: {
