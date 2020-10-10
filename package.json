@@ -1,12 +1,12 @@
 {
-  "name": "3box-blog",
+  "name": "dblog",
   "version": "4.0.0",
   "homepage": "./",
   "license": "MIT",
   "dependencies": {
-    "3box": "^1.22.2",
-    "3box-comments-react": "^3.0.4",
-    "@material-ui/core": "^4.10.2",
+    "3box": "^1.21.0",
+    "3box-comments-react": "^3.0.5",
+    "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
@@ -14,11 +14,11 @@
     "query-string": "^6.13.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-mde": "^10.1.0",
-    "react-scripts": "^3.4.1",
+    "react-mde": "^10.2.1",
+    "react-scripts": "^3.4.3",
     "react-showdown": "^2.1.0",
     "showdown": "^1.9.1",
-    "typescript": "^3.9.5",
+    "typescript": "^3.9.7",
     "use-async-effect": "^2.2.2"
   },
   "scripts": {

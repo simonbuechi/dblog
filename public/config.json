@@ -11,13 +11,13 @@
     "background": "#eceff1"
   },
   "socials": {
-    "hasWebsite": true,
-    "hasFacebook": true,
+    "hasWebsite": false,
+    "hasFacebook": false,
     "hasInstagram": false,
-    "hasLinkedIn": true,
-    "hasMedium": true,
+    "hasLinkedIn": false,
+    "hasMedium": false,
     "hasTelegram": false,
-    "hasTwitter": true,
+    "hasTwitter": false,
     "hasYouTube": false,
     "website": "https://buechi.name",
     "facebook": "https://www.facebook.com/simon.buechi",
