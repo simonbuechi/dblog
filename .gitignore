@@ -27,3 +27,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /test-posts
+
+.env
+package-lock.json
