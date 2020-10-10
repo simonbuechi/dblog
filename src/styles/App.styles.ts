@@ -6,7 +6,6 @@ export default makeStyles((theme: Theme) =>
       minHeight: `calc(100vh - (64px + 163px))`, // 100vh - (header + footer)
       maxWidth: 960,
       padding: theme.spacing(4, 2),
-      marginTop: theme.spacing(9),
       marginRight: "auto",
       marginLeft: "auto",
     },

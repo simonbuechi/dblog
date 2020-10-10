@@ -37,7 +37,7 @@ const WritePost: React.FunctionComponent<Props & RoutingProps> = ({
   const { secondary, error } = state.theme.palette;
   useAsyncEffect(async () => {
     if (!state.user.loggedIn && !state.user.loading) {
-      await handleLogin();
+      handleLogin();
     } else if (!state.user.isAdmin) {
       handleRoute("");
     } else if (id) {
@@ -60,7 +60,7 @@ const WritePost: React.FunctionComponent<Props & RoutingProps> = ({
   const handleChange = ({
     target: { value, id },
   }: React.ChangeEvent<HTMLInputElement>) => {
-    setPost({ ...post, [id]: value });
+    setPost({ ...post, [id]: value.replace(":", "") });
   };
 
   const handlePublish = async () => {

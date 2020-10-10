@@ -12,7 +12,6 @@ import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import useStyles from "styles/components/Sidebar.styles";
 import { RoutingProps } from "types/app";
 import Hidden from "@material-ui/core/Hidden";
-import MailIcon from '@material-ui/icons/Mail';
 import Button from "@material-ui/core/Button";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import AvatarMenu from "components/AvatarMenu";
@@ -32,17 +31,12 @@ const Sidebar: React.FunctionComponent<RoutingProps> = ({ handleRoute }) => {
   const handleMedium = () => handleSocials("medium");
   const handleYouTube = () => handleSocials("youTube");
   const { state, dispatch } = React.useContext(appContext);
-  const { title, logo } = state;
+  
   const {
     user: { loggedIn, profileImg, isAdmin, loading },
     theme: { palette },
     socials,
   } = state;
-
-  const toHome = () => {
-    handleRoute("");
-  };
-
 
   const handleSocials = (id: string) => {
     const social = (socials as any)[id];
@@ -87,15 +81,6 @@ const Sidebar: React.FunctionComponent<RoutingProps> = ({ handleRoute }) => {
         >
           <div className={classes.drawerPaper}>
             <List>
-              <ListItem button onClick={handleWebsite}>
-                <ListItemIcon>
-                  <img
-                    src={`${process.env.PUBLIC_URL}/${logo}`}
-                    alt={title}
-                    onClick={toHome}
-                  />
-                </ListItemIcon>
-              </ListItem>
               <Divider />
               <ListItem >
                 <ListItemText primary={

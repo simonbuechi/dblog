@@ -5,7 +5,7 @@ export default makeStyles((theme: Theme) =>
     container: {
       display: "flex",
       flexDirection: "column",
-      marginBottom: theme.spacing(1),
+      marginBottom: theme.spacing(3),
       padding: theme.spacing(4),
       maxWidth: 960,
     },

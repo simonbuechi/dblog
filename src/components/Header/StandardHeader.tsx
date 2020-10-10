@@ -59,14 +59,15 @@ const StandardHeader: React.FunctionComponent<Props> = ({
   return (
     <>
       <div className={classes.leftContainer}>
-        {logo ? (
+        {logo && (
           <img
             src={`${process.env.PUBLIC_URL}/${logo}`}
             alt={title}
             className={classes.logo}
             onClick={toHome}
           />
-        ) : (
+        )} 
+        {title && (
           <Typography onClick={toHome} className={classes.title}>
             {title}
           </Typography>
